@@ -21,5 +21,8 @@ namespace WebhookLib.Types
 
         [JsonPropertyName("fields")]
         public EmbedField[]? Fields { get; set; }
+
+        [JsonPropertyName("footer")]
+        public EmbedFooter? Footer { get; set; }
     }
 }
